@@ -1,7 +1,7 @@
 jQuery(function () {
     //fake next, prev
     jQuery('.rslides').parent().css('position', 'relative');
-    for(var i = 1; i < 11; i++ ) {
+    for(var i = 1; i <= 11; i++ ) {
         jQuery('#slider' + i).responsiveSlides({
             manualControls: '#slider' + i + '-pager',
             maxwidth: 900,

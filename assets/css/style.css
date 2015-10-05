@@ -151,6 +151,9 @@
 	}
 }
 /*popup*/
+.modal .video-slider-modal {
+    width: 90%;
+}
 .modal.custom-modal {
 	z-index: 2000;
 	font-family: Arial, Helvetica;

@@ -1,0 +1,124 @@
+/* edit custom slider css */
+ul.rslides li {
+}
+
+ul.rslides_tabs {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+ul.rslides_tabs li {
+	margin: 0;
+	padding: 0 5px;
+	display: inline-block;
+}
+
+ul.rslides_tabs li img {
+	padding: 1px;
+	background: #ccc;
+	opacity: 0.6;
+}
+
+ul.rslides_tabs li:hover img {
+	opacity: 1;
+}
+
+ul.rslides_tabs li.rslides_here img {
+	background: #444;
+	opacity: 1;
+}
+
+li.video-slide iframe {
+	z-index:-100;
+}
+
+a.rslides_nav {
+	display: block;
+	position: absolute;
+	z-index: 1000;
+	background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #EEEEEE, #EEEEEE);
+    background-repeat: repeat-x;
+    border: 0 none;
+    color: #333333;
+    display: inline-block;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 8px 0 0;
+    min-width: 35px;
+    outline: 0 none;
+    overflow: visible;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+    vertical-align: inherit;
+    white-space: nowrap;
+}
+
+a.rslides_nav:hover {
+	color: #333;
+	text-decoration: none;
+	background-color: #DCDCDC;
+	background-image: -moz-linear-gradient(top,#DCDCDC,#DCDCDC);
+	background-image: -ms-linear-gradient(top,#DCDCDC,#DCDCDC);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#DCDCDC),to(#DCDCDC));
+	background-image: -webkit-linear-gradient(top,#DCDCDC,#DCDCDC);
+	background-image: -o-linear-gradient(top,#DCDCDC,#DCDCDC);
+	background-image: linear-gradient(top,#DCDCDC,#DCDCDC);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcdcdc',endColorstr='#dcdcdc',GradientType=0);
+	z-index: 100;
+	outline: 0;
+}
+
+a.rslides_nav:active {
+	background-color: #EEE;
+	background-image: -moz-linear-gradient(top,#EEE,#DCDCDC);
+	background-image: -ms-linear-gradient(top,#EEE,#DCDCDC);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#EEE),to(#DCDCDC));
+	background-image: -webkit-linear-gradient(top,#EEE,#DCDCDC);
+	background-image: -o-linear-gradient(top,#EEE,#DCDCDC);
+	background-image: linear-gradient(top,#EEE,#DCDCDC);
+	background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: inset 0 1px 8px rgba(0,0,0,0.25);
+	box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gra
+}
+
+
+
+a.rslides_nav.prev {
+	top: 35%;
+	left: 15px;
+}
+
+a.rslides_nav.next {
+	top: 35%;
+	right: 15px;
+}
+
+p.caption {
+	position: absolute;
+	bottom: 10px;
+	text-align:left;
+	color: #000;
+	/*background: #fff;*/
+	
+	margin: 0;
+	
+}
+
+p.captionvid {
+	
+	bottom: 20px;
+	text-align:left;
+	color: #000;
+	
+	
+	margin: 0;
+	
+}

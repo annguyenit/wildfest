@@ -168,6 +168,21 @@
 	left: 50%;
 	top: 50%;
 }
+.modal.custom-modal .video-slider-modal {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+}
+.modal.custom-modal .video-slider-modal {
+	z-index: 2000;
+	font-family: Arial, Helvetica;
+	font-weight: normal;
+}
+@media (min-width: 992px) {
+    .video-slider-modal h2 {
+        margin-top: 0 !important;
+    }
+}
 .modal.custom-modal .custom-col.col-md-4 {
 	padding-left: 0;
 	padding-right: 14px;
@@ -246,5 +261,9 @@
 
 .more a:hover {
     color: #23527c !important;
+}
+
+.portfolio-item {
+    cursor: pointer;
 }
 
